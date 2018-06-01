@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>URL-Splitter</title>
+  <link rel="stylesheet" href="styles/material.min.css">
+  <link rel="stylesheet" href="styles/material-icons.css">
+  <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+  <section id="wrapper">
+    <div class="title domain">Domain</div>
+    <div id="domain" class="content"></div>
+    <div class="title path">Path</div>
+    <div id="path" class="content"></div>
+    <div class="title query">Query</div>
+    <div id="copy-btn" class="icon material-icons">content_copy</div>
+    <div class="mdl-tooltip" for="copy-btn">Copy</div>
+    <table id="query-table" class="mdl-data-table mdl-js-data-table">
+      <thead class="scroll-head">
+        <tr>
+          <th class="mdl-data-table__cell--non-numeric">key</th>
+          <th class="mdl-data-table__cell--non-numeric">value</th>
+        </tr>
+      </thead>
+      <tbody class="scroll-body">
+      </tbody>
+    </table>
+  </section>
+  <script src="scripts/material.min.js"></script>
+  <script src="scripts/index.js"></script>
+</body>
+</html>

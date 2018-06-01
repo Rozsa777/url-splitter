@@ -1,0 +1,66 @@
+body {
+  width: 300px;
+  height: 400px;
+  min-height: 400px;
+  padding: 10px;
+}
+
+#wrapper {
+  padding-bottom: 20px;
+}
+
+#wrapper .title {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+#wrapper .content {
+  margin: 0 8px 8px 8px;
+  word-break: break-all;
+}
+
+#wrapper .query {
+  display: inline-block;
+  width: 260px;
+}
+
+#wrapper #copy-btn {
+  position: relative;
+  top: 6px;
+  cursor: pointer;
+}
+
+#wrapper #copy-btn:focus {
+  outline: none;
+}
+
+#wrapper table {
+  width: 100%;
+}
+
+#wrapper table tbody tr td {
+  width: 50%;
+  word-break: break-all;
+}
+
+#wrapper table tbody.scroll-body {
+  overflow-y: scroll;
+}
+
+#wrapper .mdl-data-table {
+  white-space: normal;
+}
+
+#wrapper .mdl-data-table th {
+  height: 42px;
+  padding: 0 8px 8px 8px;
+}
+
+#wrapper .mdl-data-table tbody tr {
+  height: 38px;
+}
+
+#wrapper .mdl-data-table td {
+  height: 38px;
+  padding: 8px 18px 8px 8px;
+}
